@@ -12,6 +12,7 @@ from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 from sklearn.metrics import mean_squared_error
 
+
 def load_data(path):
     """
     Load the dataset from a specified path.
