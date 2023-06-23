@@ -15,6 +15,17 @@ The primary goal of this project is to predict an individual's salary in USD usi
 
 We are going to compare different classic ML algorithms and their performance on this dataset. 
 
+## Project Structure
+
+The project structure is organized as follows:   
+
+ds_salaries.csv: Dataset containing salary information.    
+initial_data_analysis.ipynb: Jupyter Notebook for the initial data analysis.      
+models_comparision.py: Python script for comparing different models and selectin the best one for hyperparameter tuning.
+xgboost_hypertunning.py: Python script for hyperparameter tuning of the XGBoost model.
+best_params.joblib: Joblib file storing the best parameters for model training.
+xgboost_model.joblib: Joblib file containing the trained XGBoost model.
+AnalysisResults.ipynb: Jupyter Notebook containing the analysis results. 
 
 
 ## Data Source

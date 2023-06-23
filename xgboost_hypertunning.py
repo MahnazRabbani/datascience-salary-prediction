@@ -6,7 +6,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import accuracy_score
 from joblib import dump, load
 
-from model_selection import load_data, encode_experience, drop_columns, convert_columns_to_str, preprocess_data
+from models_comparision import load_data, encode_experience, drop_columns, convert_columns_to_str, preprocess_data
 
 def preprocess_and_split_data(df):
     # Perform feature engineering
