@@ -32,3 +32,7 @@ AnalysisResults.ipynb: Jupyter Notebook containing the analysis results.
 
 The data used for this project was sourced from the [HuggingFace website](https://huggingface.co/datasets/Einstellung/demo-salaries). 
 Please note that the actual salary figures are anonymized and do not correspond to specific individuals.
+
+## Results
+
+The XGBoost model performs best among candidate models achieving a Root Mean Squared Error (RMSE) of 49924.16. The RMSE of 49924.16 suggests that the model's predictions have an average deviation of approximately $49,924.16 from the actual salary values. 
